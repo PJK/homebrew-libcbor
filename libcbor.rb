@@ -1,9 +1,9 @@
 class Libcbor < Formula
   desc "CBOR format implementation for C"
   homepage "http://libcbor.org/"
-  url "https://github.com/PJK/libcbor/archive/v0.4.0.tar.gz"
-  version "0.4.0"
-  sha256 "1b61e6eba2b5b18b5ec1a29161ad7037689464e77a4ad6cc1c084f888b531acf"
+  url "https://github.com/PJK/libcbor/archive/v0.5.0.tar.gz"
+  version "0.5.0"
+  sha256 "9bbec94bb385bad3cd2f65482e5d343ddb97e9ffe261123ea0faa3bfea51d320"
 
   depends_on "cmake" => :build
 
