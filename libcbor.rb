@@ -29,8 +29,8 @@ class Libcbor < Formula
       }
     EOS
 
-    system "cc -std=c99 #{(testpath/"example.c")} -lcbor -o example"
-    system testpath/"example"
-    puts `#{testpath/"example"}`
+    system ENV.cc, "-std=c99", "example.c", "-L#{lib}", "-lcbor", "-o", "example"
+    system "./example"
+    puts `./example`
   end
 end
