@@ -16,7 +16,7 @@ class Libcbor < Formula
   end
 
   test do
-    (testpath/"example.c").write <<-EOS.undent
+    (testpath/"example.c").write <<-EOS
       #include "cbor.h"
       #include <stdio.h>
 
