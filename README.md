@@ -1,7 +1,8 @@
 # [libcbor](https://github.com/PJK/libcbor) tap
 
+**This tap is deprecated -- libcbor is now a [part of homebrew-core](https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcbor.rb). To install it, run**
+
 ```sh
-brew tap pjk/libcbor
 brew install libcbor
 ```
 
